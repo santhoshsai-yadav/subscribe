@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alata&family=Anton&family=Comic+Neue:ital,wght@1,300&family=EB+Garamond:ital,wght@0,400;1,800&family=Edu+SA+Beginner:wght@500;600;700&family=Inclusive+Sans&family=Kaushan+Script&family=Merienda&family=Nunito:wght@200;300;400;500;600&family=Open+Sans&family=Patrick+Hand&family=Poppins&family=Raleway&family=Roboto+Slab:wght@300;500;900&family=Roboto:wght@100;300;400;500;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&family=Satisfy&family=Sedgwick+Ave+Display&family=Sen&family=Urbanist:ital@0;1&family=VT323&family=Ysabeau+SC:wght@200;300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+h2{
+     font-family: 'EB Garamond', serif;
+     color: aliceblue;
+}
+button{
+    font-family: 'Merienda', cursive;
+    border: 2px solid white;
+    border: 2px solid #ff1f6b;
+    font-weight: bold;
+background-color: black;
+color: aliceblue;
+}
+input{
+    font-family: 'Merienda', cursive;
+    border: 2px solid white;
+   border: 2px solid #ff1f6b;
+   font-weight: bold;
+   background-color: black;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+   text-align: center;
+   margin-left: 450px;
+   border:10px solid #ff1f6b ;
+   width: 300px;
+   height: 200px;
+   border-top-left-radius: 30px;
+   background-color: black;
+}
+.Document{
+    display: flex;
+margin-top: 20px;
+}
+.buton{
+    margin-left: 20px;
+}
+.buton:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
